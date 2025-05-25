@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+
+    @font-face {
+        font-family:"Marlos";
+        src: url("fontes/Marlos.otf");
+    }
+
+     @font-face {
+        font-family:"Brastika";
+        src: url("fontes/Brastika-Black.ttf");
+    }
+
+    * {
+        margin: 0px;
+        padding: 0px;
+        height: 100vh;
+        box-sizing: border-box;
+       
+
+
+    }
+
+    a {
+        padding: 10px;
+        text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
+        font-size: 14px;
+    }
+
+    span {
+        color: #3d554c;
+        font-weight: bolder;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(#4e6d63, #8bc9b6);
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+        
+      
+    }
+
+    
+
+    header {
+        background-color: #528475;
+        box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.61);
+        margin: 35px 35px 35px 65px;
+        height: 40px;
+        border-radius: 25px;
+        
+
+    }
+
+    main {
+        border-radius: 0px 0px 35px 35px;
+        background-color: white;
+        padding: 15px;
+        width: 320px;
+        height: 265px;
+        margin: auto;
+
+    }
+
+    main > p {
+        background-clip: text;
+        background-image: linear-gradient(#42524c, #6bf1c9);
+        color: transparent;
+    }
+
+    h1 {
+        font-family: "Marlos";
+        color: white;
+        transform: translate(19%, -71%);
+        font-size: 2.8em;
+    }
+
+    #image {
+        background-image: url("../FIT-ESSÊNCIA/imagens/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 50%;
+        background-position: center;
+        overflow: hidden;
+     
+      
+    }
+
+    #logo {
+     
+       
+       
+       
+    }
+
+    #logotipo > img {
+        width: 52px;
+        height: auto;
+        border-radius: 50%;
+        transform: translate(-111%, -11%);
+
+    }
+
+    #logo > img {
+        width: 150px;
+        height: auto;
+        margin: 22% 30% 11%;
+        
+      
+    }
+
+    #border {     
+         overflow: hidden;
+         height: 760px;
+         width: 360px; 
+         border-radius: 35px;
+         border: 1px solid black;
+         background-color: #528475;
+         font-weight: bold;
+         background-image: linear-gradient( #3f4b47,#6cc0a7);
+         box-shadow: 13px 3px 14px rgb(66, 80, 75);
+
+         
+    }
+
+    #p-final {
+        font-family:"Brastika";
+        color: white;
+        font-size: 1.3em;
+        text-align: center;
+        padding: 16px;
+        text-shadow: 6px 5px 5px rgba(52, 68, 62, 0.774);
+    }
+    
+   
+
+
+    ul {
+        font-family:"Brastika";
+        list-style: none;
+        transform: translate(15%, -6%);
+       
+        
+    }
+
+
+    ul > li > a {
+        text-decoration: none;
+        color: white;
+       
+    }
+ 
+   
+
+       footer > p > a {
+         font-size: 12px;
+         text-shadow: none;
+         color: white;
+         font-weight: bolder;
+         text-decoration: none;
+       }
