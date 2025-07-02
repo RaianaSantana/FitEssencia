@@ -25,10 +25,12 @@
         padding: 10px;
         text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
         font-size: 14px;
+        text-decoration: none;
+        color:  #68b699;
     }
 
     span {
-        color: #3d554c;
+        color: #68b699;
         font-weight: bolder;
     }
 
@@ -131,7 +133,9 @@
     #p-final {
         font-family:"Brastika";
         color: white;
-        font-size: 1.3em;
+        margin: 15px 0px;
+        background-color: #424949;
+        font-size: 0.80em;
         text-align: center;
         padding: 16px;
         text-shadow: 6px 5px 5px rgba(52, 68, 62, 0.774);
