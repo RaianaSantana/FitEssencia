@@ -19,28 +19,86 @@
         }
 
         #border {     
-         overflow: scroll;
-         height: 760px;
+         height: 730px;
          width: 360px; 
-         border-radius: 35px;
+         border-radius: 5px;
          border: 1px solid black;
-         background-color: #528475;
-         font-weight: bold;
-         background-image: linear-gradient( #3f4b47,#6cc0a7);
+         background-image: url("background.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;
+         font-weight: bold;   
          box-shadow: 13px 3px 14px rgb(66, 80, 75);
 
          
     }
 
+    h1 {
+       padding: 0px;
+       color: black;
+
+    }
+
+    #h1 {
+        width: 100%;
+        height: 60px;
+        margin: 15px 0px 15px 0px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bolder;
+    }
+
+
+    iframe {
+        width: 100%;
+        height:280px;
+        margin: 28px;
+        border-radius: 15px 65px;
+        text-align: center;
+        background-color: none;
+    }
+
     .receitas {
-        width: 250px;
-        height: 50px;
-        padding: 10px;
-        margin: auto;
-        background-color: white;
+        margin: auto; 
+       color: white;
+       background-color: #3f4b47;
+          
       
     }
+
+    body {
       
+    }
+
+    #video {
+        border: #3f4b47 solid 5px;
+        position: absolute;
+        width: 100%;
+        height: 178px;
+     
+    }
+
+    video {
+        border: #3f4b47 solid 5px;
+      
+        width: 100%;
+        height: 138px;
+       
+     
+    }
+
+     #p-final {
+        font-family:"Brastika";
+        color: white;
+        margin: 15px 0px;
+        background-color: #424949;
+        font-size: 0.94em;
+        text-align: center;
+        padding: 16px;
+        text-shadow: 6px 5px 5px rgba(52, 68, 62, 0.774);
+    }
+
+ 
     
 
     </style>
@@ -60,38 +118,38 @@
             <ul>
                 <li>
                     <a href="index.html">Ínicio</a>
-                    <a href="#">Receitas</a>
-                    <a href="#">Contato</a>
+                    <a href="receitas.html">Receitas</a>
+                    <a href="contato.html">Contato</a>
                 </li>         
             </ul>
 
            </div>
             
         </header>
+          
             <div id="logo">
                  
+             
+                 <div id="video">
+                    <video src="imagens/istockphoto-1285478867-640_adpp_is.mp4" autoplay="autoplay" controls loop></video>
+                 </div>
                 <img src="../FIT-ESSÊNCIA/imagens/Logo FitEssência.png" alt="">
+               
+                <div class="receitas" id="h1"><p>FitEssência</p></div>
 
-                <div class="receitas"></div>
-                <div class="receitas"></div>
-                <div class="receitas"></div>
-                <div class="receitas"></div>
-                <div class="receitas"></div>
-                <div class="receitas"></div>
-                <div class="receitas"></div>
-                <div class="receitas"></div>
+                <iframe src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fge.globo.com%2Feu-atleta%2Fnutricao%2Fnoticia%2F5-receitas-veganas-ricas-em-proteina-faceis-e-baratas.ghtml&psig=AOvVaw3GL0sgA5fjD1FEk6QqhP-b&ust=1750126680489000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNjpn4rw9I0DFQAAAAAdAAAAABAE" frameborder="0" class="receitas"></iframe>
+            
+                 <div class="receitas" id="h1"><p>(＾▽＾)>Olá!</p></div>
+              
+                 <p id="p-final">
+                Copyright © 2025 <a href="https://www.instagram.com/sxmi_mra/?utm_source=ig_web_button_share_sheet">sxmi_mra</a> Todos os direitos reservados.
+        </p>
             </div>
-             <h1>FitEssência</h1>   
+           
                 
-        </div>     
+       
         
-        <!--     
-        <footer>
-            <p>
-               Copyright © 2025 <a href="https://www.instagram.com/sxmi_mra/?utm_source=ig_web_button_share_sheet">sxmi_mra</a> Todos os direitos reservados.
-            </p>
-        </footer>
-        --> 
-    </div>  
+         
+  
 </body>
 </html>
